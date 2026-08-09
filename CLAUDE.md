@@ -27,4 +27,5 @@ COURSE=courses/hamradio COOKIES_BROWSER= uv run python src/build/fetch_meta.py
 
 ## 狀態(2026-08-10 完成)
 - **verify 53/53、audit 0 錯誤 3 警告(皆留白產物)、89 tests**;頻道最高佔比 9.4%
-- (部署後補:上線網址與 GitHub repo)
+- **已上線 https://hamradio-course.pages.dev**(Pages 專案 hamradio-course)
+- **GitHub**:kansasray/hamradio-course(public,Discussions 已開,giscus 已填待裝 App)
