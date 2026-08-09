@@ -97,7 +97,9 @@
     "openExternal": "在 YouTube 開啟",
     "emptyTitle": "沒有符合的內容",
     "emptyHint": "換個關鍵字,或把篩選條件清掉。",
-    "filterAllLabel": "全部"
+    "filterAllLabel": "全部",
+    "discussLabel": "討論",
+    "discussNote": "留言會同步到這門課 GitHub repo 的 Discussions,需要 GitHub 帳號才能發言。每支影片各有一串。"
   },
   "kinds": [
     {
@@ -287,6 +289,18 @@
   "footer": {
     "disclaimer": "**發射需要執照。**未取得業餘無線電人員資格前,請勿在業餘頻段發射;收聽不在此限。本課程為教育參考,實際考照與操作規範以 NCC 現行法規為準。影片版權屬各原始 YouTube 頻道,本站只做策展與導讀。",
     "credits": "教學影片策展自 YouTube 公開內容,版權屬各原始頻道所有。考照資訊以 NCC 公告與現行題庫為對照。**姊妹課程**:防災技能樹見「Meshtastic 離網通訊」 meshtastic-course.pages.dev(數據層)與「ATAK 防災地圖」 atak-course.pages.dev(圖上指管);本課管的是語音層。"
+  },
+  "discussions": {
+    "provider": "giscus",
+    "repo": "kansasray/hamradio-course",
+    "repoId": "R_kgDOTzrM8Q",
+    "category": "Q&A",
+    "categoryId": "DIC_kwDOTzrM8c4DDB3p",
+    "mapping": "specific",
+    "termPrefix": "hamradio",
+    "lang": "zh-TW",
+    "reactions": true,
+    "inputPosition": "top"
   },
   "llms": {
     "summary": "[[course]] 是一門策展自 YouTube 公開影片的台灣業餘無線電課,分成考照與法規、原理與操作、裝備天線與應用三部,共 [[durationHours]] 小時 [[durationMinutes]] 分。台灣中文教學為主軸,原理與數位模式以英文內容補足,導讀為繁體中文。",
